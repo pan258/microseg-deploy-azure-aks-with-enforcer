@@ -18,7 +18,6 @@ agent_count = 2
 
 vmSize = "Standard_DS2_v2"
 
-# you can get enforcerd image tag here: https://gcr.io/prismacloud-cns/enforcerd
 cns_enforcerd_image = "gcr.io/prismacloud-cns/enforcerd:release-6.9.1"
 
 cns_enforcerd_cni_bin_dir="/opt/cni/bin"
