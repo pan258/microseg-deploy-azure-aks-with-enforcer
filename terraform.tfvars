@@ -6,8 +6,7 @@ ssh_public_key = "~/.ssh/id_rsa.pub"
 
 cns_api = "<Microsegmentation API Endpoint for your tenant>"
 
-cns_namespace = "<Microsegmentation Name Space to deploy the VM>"
-
+cns_namespace = "<Microsegmentation Name Space to deploy the VM e.g. "/81234567890/production/cluster1">"
 
 # These default values can be used
 cluster_name = "microseg-demo-cluster"
