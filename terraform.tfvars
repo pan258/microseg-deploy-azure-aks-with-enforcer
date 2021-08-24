@@ -1,17 +1,17 @@
-resource_group_name = "<RG Name>"
+resource_group_name = "loo_resourceautok8"
 
-location = "<Azure region to deploy the VM. e.g. southeastasia>"
+location = "southeastasia"
 
 ssh_public_key = "~/.ssh/id_rsa.pub"
 
-cns_api = "<Microsegmentation API Endpoint for your tenant>"
+cns_api = "https://api.east-02.network.prismacloud.io"
 
-cns_namespace = "<Microsegmentation Name Space to deploy the Enforcer e.g. "/81234567890/production/cluster1">"
+cns_namespace = "/807152304871829504/loons/AKSGuestbook"
 
 # These default values can be used
-cluster_name = "microseg-demo-cluster"
+cluster_name = "microseg-auto-cluster"
 
-adminUsername = "admin"
+adminUsername = "pan258"
 
 agent_count = 2
 
