@@ -1,17 +1,17 @@
-resource_group_name = "loo_resourceautok8"
+resource_group_name = "<resourcegrp>"
 
 location = "southeastasia"
 
 ssh_public_key = "~/.ssh/id_rsa.pub"
 
-cns_api = "https://api.east-02.network.prismacloud.io"
+cns_api = "https://api"
 
-cns_namespace = "/807152304871829504/loons/AKSGuestbook"
+cns_namespace = "/ns"
 
 # These default values can be used
 cluster_name = "microseg-auto-cluster"
 
-adminUsername = "pan258"
+adminUsername = "<username>"
 
 agent_count = 2
 
